@@ -1,10 +1,12 @@
 import json
 import random
 import batalha
-
+import pet
 with open ("inspermons.json") as wild_inspermons:
 	a = json.load(wild_inspermons)
-
+vidaj = pet.pet['vida']
+poderj = pet.pet['poder']
+defesaj = pet.pet['defesa']
 while True:
 	x = random.choice(a)
 	pergunta = input("passear ou dormir? ")
@@ -13,10 +15,9 @@ while True:
 		break
 	elif pergunta == "passear":
 		print("Voce ira batalhar com {0}".format(x['nome']))
-		print(batalha.battle(x['vida'],1000,1000,1000,x['defesa'],x['poder']))
+		print(batalha.battle(x['vida'],vidaj,poderj,defesaj,x['defesa'],x['poder']))
 		break
 	else:
 		print("ERRO, reposta invalida, tente novamente")
 		continue 
-
 
