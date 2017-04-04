@@ -14,9 +14,9 @@ while True:
 		print("Até mais")
 		break
 	elif pergunta == "passear":
-		print("Voce ira batalhar com {0}".format(x['nome']))
+		print("um {0} muito louco brotou do nada".format(x['nome']))
 		print(batalha.battle(x['vida'],vidaj,poderj,defesaj,x['defesa'],x['poder']))
-		break
+		
 	else:
 		print("ERRO, reposta invalida, tente novamente")
 		continue 
