@@ -12,4 +12,4 @@ elif b == "xamando":
 elif b == "pidjet":
 	pet = a[2]
 
-print("esses são os status do seu novo inspèrmon: \n {0}". format(pet))
+print("esses são os status do seu novo inspèrmon: \n nome: {0} \n vida: {1} \n poder: {2} \n defesa: {3} ". format(pet['nome'],pet['vida'],pet['poder'],pet['defesa']))
