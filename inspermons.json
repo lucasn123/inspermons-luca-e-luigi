@@ -4,7 +4,7 @@
 		"poder" : 60,
 		"vida" : 50,
 		"defesa" : 75
-	}
+	},
 	{
 		"nome" : "xamando",
 		"poder" : 80,
@@ -16,195 +16,195 @@
 		"poder" : 45,
 		"vida" : 40,
 		"defesa" : 40
-	}
+	},
 
 	{	"nome" : "ayrizard",
 		"poder" : 200,
 		"vida" : 200,
 		"defesa" : 200
-	}
+	},
 
 	{	"nome": "charmelão",
 		"poder" : 64,
 		"vida" : 58,
 		"defesa" : 58
-	}
+	},
 
 
 	{	"nome" : "leonine",
 		"poder" : 110,
 		"vida" : 90,
 		"defesa" : 80
-	}
+	},
 
 
 	{	"nome": "supdude",
 		"poder" : 80,
 		"vida" : 40,
 		"defesa" : 100
-	}
+	},
 
 	{	"nome": "slowhomie",
 		"poder" : 75,
 		"vida" : 95,
 		"defesa" : 110
-	}
+	},
 
 	{	"nome" : "cubonner",
 		"poder" :50,
 		"vida" : 50,
 		"defesa" : 95
-	}
+	},
 
 	{	"nome" : "hitmonbabyonemoretime",
 		"poder" : 120,
 		"vida" : 50,
 		"defesa" : 53
-	}
+	},
 
 	{	"nome" : "lagartona",
 		"poder" : 30,
 		"vida" : 45,
 		"defesa" : 35
-	}
+	},
 
 	{	"nome": "largata de agulha",
 		"poder" : 35,
 		"vida" : 40,
 		"defesa" : 30
-	}
+	},
 
 	{	"nome" : "ratratra",
 		"poder" : 56,
 		"vida" : 30,
 		"defesa" : 35
-	}
+	},
 
 	{	"nome" : "jack-spearow",
 		"poder" : 60,
 		"vida" : 40,
 		"defesa" : 30
-	}
+	},
 
 	{	"nome" : "snek",
 		"poder" : 60,
 		"vida" : 35,
 		"defesa" : 44
-	}
+	},
 
 	{	"nome" : "nedoren F",
 		"poder" : 47,
 		"vida" : 55,
 		"defesa" : 52
-	}
+	},
 
 	{	"nome" : "nedoren M",
 		"poder" : 57,
 		"vida" : 46,
 		"defesa" : 40
-	}
+	},
 
 	{	"nome" : "clefada",
 		"poder" : 45,
 		"vida" : 70,
 		"defesa" : 48
-	}
+	},
 
 	{	"nome" : "vulpixelado",
 		"poder" : 41,
 		"vida" : 38,
 		"defesa" : 40
-	}
+	},
 
 	{	"nome" : "jigglywiggly",
 		"poder" : 35,
 		"vida" : 115,
 		"defesa" : 20
-	}
+	},
 
 	{	"nome" : "manbat",
 		"poder" : 45,
 		"vida" : 40,
 		"defesa" : 35
-	}
+	},
 
 	{	"nome" : "potatoish",
 		"poder" : 50,
 		"vida" : 45,
 		"defesa" : 55
-	}
+	},
 
 	{	"nome" : "crabas",
 		"poder" : 70,
 		"vida" : 35,
 		"defesa" : 55
-	}
+	},
 
 	{	"nome" : "digletão",
 		"poder" : 55,
 		"vida" : 10,
 		"defesa" : 25 
-	}
+	},
 
 	{	"nome" : "miau",
 		"poder" : 45,
 		"vida" : 40,
 		"defesa" : 35
-	}
+	},
 
 	{	"nome" : "sykeduck",
 		"poder" : 52,
 		"vida" : 50,
 		"defesa" : 48
-	}
+	},
 
 	{	"nome" : "man'not'ankey",
 		"poder" : 80,
 		"vida" : 40,
 		"defesa" : 35
-	}
+	},
 
 	{	"nome" : "polizigzag",
 		"poder" : 50,
 		"vida" : 40,
 		"defesa" : 40
-	}
+	},
 
 	{	"nome" : "fecha",
 		"poder" : 20,
 		"vida" : 25,
 		"defesa" : 15
-	}
+	},
 
 	{	"nome" : "makick",
 		"poder" : 80,
 		"vida" : 70,
 		"defesa" : 50
-	}
+	},
 
 	{	"nome" : "plantinha #estranha",
 		"poder" : 75,
 		"vida" : 50,
 		"defesa" : 35
-	}
+	},
 
 	{	"nome" : "Pocotó de fogo",
 		"poder" : 85,
 		"vida" : 50,
 		"defesa" : 55
-	}
+	},
 
 	{	"nome" : "imãgnemite",
 		"poder" : 35,
 		"vida" : 25,
 		"defesa" : 70
-	}
+	},
 
 	{	"nome" : "doisduo",
 		"poder" : 85,
 		"vida" : 35,
 		"defesa" : 45
-	}
+	},
 
 	{	"nome" : "foca",
 		"poder" : 45,
