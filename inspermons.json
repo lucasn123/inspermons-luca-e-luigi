@@ -50,12 +50,6 @@
 		"defesa" : 100
 	},
 
-	{	"nome": "slowhomie",
-		"poder" : 75,
-		"vida" : 95,
-		"defesa" : 110
-	},
-
 	{	"nome" : "cubonner",
 		"poder" :50,
 		"vida" : 50,
