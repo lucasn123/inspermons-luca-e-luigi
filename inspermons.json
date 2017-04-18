@@ -3,19 +3,22 @@
 		"nome" : "picaxu",
 		"poder" : 60,
 		"vida" : 50,
-		"defesa" : 75
+		"defesa" : 75,
+		"xp" : 0
 	},
 	{
 		"nome" : "xamando",
 		"poder" : 80,
 		"vida" : 60,
-		"defesa" : 70
+		"defesa" : 70,
+		"xp" : 0
 	},
 	{
 		"nome" : "pidijet",
 		"poder" : 45,
 		"vida" : 40,
-		"defesa" : 40
+		"defesa" : 40,
+		"xp" : 0
 	},
 
 	{	"nome" : "ayrizard",
