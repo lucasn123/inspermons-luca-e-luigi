@@ -4,30 +4,53 @@
 		"poder" : 60,
 		"vida" : 50,
 		"defesa" : 75,
-		"xp" : 0,
-		"nivel" : 0
+		"xp" : 0
 	},
+
+	{
+		"nome" : "raiuuu",
+		"poder" : 170,
+		"vida" : 150,
+		"defesa" : 160,
+		"xp" : 0
+	},
+
+
 	{
 		"nome" : "xamando",
 		"poder" : 80,
 		"vida" : 60,
 		"defesa" : 70,
-		"xp" : 0,
-		"nivel" : 0
+		"xp" : 0
 	},
 	{
 		"nome" : "pidijet",
 		"poder" : 45,
 		"vida" : 40,
 		"defesa" : 40,
-		"xp" : 0,
-		"nivel" : 0
+		"xp" : 0
 	},
 
 	{	"nome" : "ayrizard",
-		"poder" : 200,
+		"poder" : 220,
 		"vida" : 200,
 		"defesa" : 200
+	},
+
+	{
+		"nome" : "pidjao",
+		"poder" : 70,
+		"vida" : 60,
+		"defesa" : 75,
+		"xp" : 0
+	},
+
+	{
+		"nome" : "pidjamelao",
+		"poder" : 160,
+		"vida" : 140,
+		"defesa" : 180,
+		"xp" : 0
 	},
 
 	{	"nome": "charmelão",
