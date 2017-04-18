@@ -3,6 +3,7 @@ import random
 import batalha #funcao batalha
 import pet #programa que permite a escolha do seu inspermon inicial
 import time
+import evolucao
 
         
 
@@ -44,8 +45,11 @@ while True:
 					print("você ganhou")
 					pet.pet['xp'] = pet.pet['xp'] + 5
 					print("você recebeu 5 xp")
-					
+					if pet.pet['xp'] == 40:
+						print(evolucao.evolucao(wild_inspermons, pet))
+						print("esses são os status do seu novo inspèrmon: \n nome: {0} \n vida: {1} \n poder: {2} \n defesa: {3} ". format(pet.pet['nome'],pet.pet['vida'],pet.pet['poder'],pet.pet['defesa']))
 
+					
 
 
 		elif resposta == 'batalhar':
@@ -61,6 +65,11 @@ while True:
 				print("você ganhou")
 				pet.pet['xp'] = pet.pet['xp'] + 5
 				print("você recebeu 5 xp")
+				if pet.pet['xp'] == 40:
+					print(evolucao.evolucao(wild_inspermons, pet))
+					print("esses são os status do seu novo inspèrmon: \n nome: {0} \n vida: {1} \n poder: {2} \n defesa: {3} ". format(pet.pet['nome'],pet.pet['vida'],pet.pet['poder'],pet.pet['defesa']))
+
+
 				
 		else:
 			print("ERRO, reposta invalida, tente novamente")
