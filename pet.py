@@ -9,10 +9,10 @@ while True:
 		pet = a[0]
 		break
 	elif b == "xamando":
-		pet = a[1]
+		pet = a[2]
 		break
 	elif b == "pidjet":
-		pet = a[2]
+		pet = a[3]
 		break
 	else:
 		print("ERRO, reposta invalida, tente novamente")
