@@ -42,7 +42,7 @@ while True:
 					print("você ganhou")
 					pet.pet['xp'] = pet.pet['xp'] + 5
 					print("você recebeu 5 xp")
-					print(pet.pet)
+					
 
 
 
@@ -57,7 +57,7 @@ while True:
 				print("você ganhou")
 				pet.pet['xp'] = pet.pet['xp'] + 5
 				print("você recebeu 5 xp")
-				print(pet.pet)
+				
 		else:
 			print("ERRO, reposta invalida, tente novamente")
 
