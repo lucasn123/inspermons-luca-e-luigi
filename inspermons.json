@@ -25,8 +25,8 @@
 	},
 	{
 		"nome" : "pidijet",
-		"poder" : 45,
-		"vida" : 40,
+		"poder" : 50,
+		"vida" : 55,
 		"defesa" : 40,
 		"xp" : 0
 	},
