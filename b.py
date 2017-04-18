@@ -40,6 +40,10 @@ while True:
 					break
 				else:
 					print("você ganhou")
+					pet.pet['xp'] = pet.pet['xp'] + 5
+					print("você recebeu 5 xp")
+					print(pet.pet)
+
 
 
 		elif resposta == 'batalhar':
@@ -51,6 +55,9 @@ while True:
 				break
 			else:
 				print("você ganhou")
+				pet.pet['xp'] = pet.pet['xp'] + 5
+				print("você recebeu 5 xp")
+				print(pet.pet)
 		else:
 			print("ERRO, reposta invalida, tente novamente")
 
