@@ -4,6 +4,8 @@ import batalha #funcao batalha
 import pet #programa que permite a escolha do seu inspermon inicial
 import time
 
+        
+
 with open ("inspermons.json") as wild_inspermons:
 	a = json.load(wild_inspermons)
 
@@ -47,6 +49,8 @@ while True:
 
 
 		elif resposta == 'batalhar':
+           
+        
 			resultado = batalha.battle(x['vida'],vidaj,poderj,defesaj,x['defesa'],x['poder'],x['nome'])
 			if resultado == "você perdeu":
 				print('voce morreu, seu noob')
