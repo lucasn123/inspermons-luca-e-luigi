@@ -6,23 +6,24 @@ import time
 import evolucao
 
         
-
 with open ("inspermons.json") as wild_inspermons:
 	a = json.load(wild_inspermons)
 
+listainsperdex = []
 vidaj = pet.pet['vida']
 poderj = pet.pet['poder']
 defesaj = pet.pet['defesa']
 fugirLista = [1,2,3,4,5] #lista que define a chance de fugir, no caso 1/5
-
+x = 0
 #codigo basico
 while True:
-	x = random.choice(a)
-	pergunta = input("passear ou dormir? ")
+	
+	pergunta = input("passear / dormir / insperdex: ")
 	if pergunta == "dormir":
 		print("Até mais")
 		break
 	elif pergunta == "passear":
+		x = random.choice(a)
 		print("um {0} muito louco brotou do nada\n vida: {1}\n poder: {2}\n defesa: {3}".format(x['nome'], x['vida'],x['poder'],x['defesa']))
 		time.sleep(2)
 		resposta = input('Você deseja batalhar ou fugir? ') #opcao de fuga
@@ -72,7 +73,20 @@ while True:
 
 				
 		else:
-			print("ERRO, reposta invalida, tente novamente")
+			print("ERRO")
+
+	elif pergunta == 'insperdex':
+		print ("INSPERDEX")
+		print("\nEsses são os status do seu inspèrmon: \n nome: {0} \n vida: {1} \n poder: {2} \n defesa: {3} \n xp: {4} \n". format(pet.pet['nome'],pet.pet['vida'],pet.pet['poder'],pet.pet['defesa'], pet.pet['xp']))
+		print ("Esses são os inspèrmons que você já encontrou:")
+		if x == 0:
+			print("    novos inspèrmons não foram encontrados \n")
+		else:
+			if x not in listainsperdex:
+				listainsperdex.append(x)
+				for i in listainsperdex:			
+					print("-------------\n nome: {0} \n vida: {1} \n poder: {2} \n defesa: {3} ".format(i['nome'],i['vida'],i['poder'],i['defesa']))
+		
 
 	else:
 		print("ERRO, reposta invalida, tente novamente")
